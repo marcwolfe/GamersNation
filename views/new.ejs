@@ -1,0 +1,13 @@
+<%- include('./partials/header.ejs') %> 
+    <h1>New Game Page</h1>
+    <form action="/games" method="POST">
+        Name: <input type="text" name="name"> <br/>
+        Description: <input type="text" name="color"> <br>
+        Img: <input type="text" name="img"> <br>
+        Price: <input type="text" name="price"> <br>
+        Discord: <input type="text" name="discord"> <br/>
+        Trailer: <input type="text" name="trailer"> <br>
+
+        <input type="submit" value="Create Game">
+    </form>
+    <%- include('./partials/footer.ejs') %>

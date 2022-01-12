@@ -42,7 +42,7 @@ router.get('/' , (req, res) => {
     Game.find({}, (error, allGames) => {
         console.log(allGames);
         res.render('index.ejs', {
-            products: allGames
+            games: allGames
         })
     })
 })
@@ -69,7 +69,7 @@ router.post('/', (req, res) => {
                 res.send(error)
             }else {
                 console.log(createdGame)
-                res.redirect('/game')
+                res.redirect('/games')
             }
     })
 })
@@ -88,7 +88,7 @@ router.delete('/:id', (req, res) => {
 
 router.get('/:id/edit', (req, res) => {
     // res.render('edit.ejs')
-    Product.findById(req.params.id, (error, foundGames) => {
+    Game.findById(req.params.id, (error, foundGames) => {
         if(error){
             console.log(error)
             res.send(error)
@@ -106,7 +106,7 @@ router.put('/:id', (req, res) => {
             res.send(error)
         }else {
             console.log(updatedGame)
-            res.redirect('/game')
+            res.redirect('/games')
         }
     })
 
@@ -118,7 +118,7 @@ router.put('/:id/buy', (req, res) => {
             console.log(error)
             res.send(error)
         }else {
-            res.redirect('/game')
+            res.redirect('/games')
         }
     })
 })

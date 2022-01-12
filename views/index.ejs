@@ -1,0 +1,36 @@
+<%- include('./partials/header.ejs') %>
+
+<h1>All Games</h1>
+<ul style="border-inline-end: 0ch;">
+    <% for(let i = 0; i < games.length; i++) { %>
+        <li>
+               <img src="<%= games[i].img %>" alt="pic"> 
+            <br>
+            The game name is <a href="/games/<%=games[i]._id%>"><%= games[i].name %></a> 
+            <br>
+            The price is $<%= games[i].price %> 
+            <br>
+            The game type is <%= games[i].description %> 
+            <br>
+            Game Trailer- <a href="<%= games[i].trailer %>"> Here </a> 
+            <br>
+            Community Discord- <a href="<%= games[i].discord %>"> Here </a>
+            <br>
+            <br>
+
+           <button> <a href="/games/<%=games[i]._id%>/edit">Edit</a> </button>
+                <form action="/games/<%=games[i]._id%>?_method=DELETE" method="POST">
+                    <br>
+                    <input type="submit" value="Delete">
+                </form>
+        </li>
+
+
+    <% } %>
+</ul>
+
+
+
+
+
+<%- include('./partials/footer.ejs') %>

@@ -1,0 +1,14 @@
+<%- include('./partials/header.ejs') %>
+    <h1>Edit Game Page</h1>
+
+    <form action="/games/<%= games.id %>?_method=PUT" method="POST">
+        Name: <input type="text" name="name" value="<%= games.name %>"> <br/>
+        Description: <input type="text" name="description" value="<%= games.description %>"> <br>
+        Img: <input type="text" name="img" value="<%= games.img %>"> <br>
+        Price: <input type="text" name="price" value="<%= games.price %>"> <br>
+        Discord: <input type="text" name="discord" value="<%= games.discord %>"> <br/>
+        Trailer: <input type="text" name="trailer" value="<%= games.trailer %>"> <br>
+
+        <input type="submit" value="Edit Game">
+    </form>
+    <%- include('./partials/footer.ejs') %>

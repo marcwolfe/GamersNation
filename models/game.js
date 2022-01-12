@@ -7,7 +7,7 @@ const gamesSchema = new Schema({
     img: String,
     price: Number,
     discord: String,
-    youtube: String
+    trailer: String
 })
 
 const Game = model('Game', gamesSchema)
