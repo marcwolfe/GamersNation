@@ -21,7 +21,7 @@ router.get('/seed', async (req, res) => {
           price: 60,
           discord: "https://discord.com/invite/tkvanguardcoldwar" ,
           trailer: "https://www.youtube.com/watch?v=OQ1CwPhE8KQ&t=1s" ,
-          review: "This is a decent Call of Duty title in terms of gameplay. There are some flaws with this game that seems to be every year. They never release the game with a league play mode to cater to the competitive players which can be frustrating for a lot of players. They also realease the game with multiple game breaking glitches and bugs which destroys the integrity of the gameplay. Most importantly though HACKERS, they have to do something effective to stop the hackers! "
+          review: "This is a decent Call of Duty title in terms of gameplay. There are some flaws with this game that seems to be every year. They never release the game with a league play mode to cater to the competitive players which can be frustrating for a lot of players. They also release the game with multiple game breaking glitches and bugs which destroys the integrity of the gameplay. Most importantly though HACKERS, they have to do something effective to stop the hackers! "
              
         }, {
           name: 'Animal Crossing New Horizons',

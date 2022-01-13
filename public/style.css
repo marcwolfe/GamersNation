@@ -10,6 +10,10 @@ body {
   text-align: center;
 }
 
+h4 {
+  color: #e7b12d;
+}
+
 * html body {
   line-height: 13px;
 }
