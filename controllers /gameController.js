@@ -136,7 +136,7 @@ router.post('/', (req, res) => {
 })
 
 router.delete('/:id', (req, res) => {
-    Product.findByIdAndDelete(req.params.id, (error, deletedGame) => {
+    Game.findByIdAndDelete(req.params.id, (error, deletedGame) => {
         if(error){
             console.log(error)
             res.send(error)

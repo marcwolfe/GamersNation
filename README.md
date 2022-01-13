@@ -8,6 +8,10 @@ Gamer Nation
 
 https://gamer-nation.herokuapp.com/
 
+To test out use
+username: Marc
+password: codewithme
+
 ## Project Description
 
 This is a gamers community where you can come to research about games you are interested in and even add your own games you want to review and show off to the community.
@@ -42,3 +46,4 @@ As a user the goal is to be able to view my games. I want to be able to add new 
 - Add more games in the library
 - Apply better CSS to make website look more clean
 - Add links to different places to purchase the games
+- Make it so you can add a review to a game that already has a review and updates it so you see both reviews
