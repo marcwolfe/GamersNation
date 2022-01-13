@@ -3,6 +3,14 @@ const router = express.Router()
 
 const Game = require('../models/game')
 
+const  authRequired = (req, res, next) => {
+    if(req.session.currentUser){
+        next()
+    } else {
+        res.redirect('/users/signin')
+    }
+}
+
 router.get('/seed', async (req, res) => {
     const newGames =
       [
@@ -112,6 +120,7 @@ router.get('/:id', (req, res) => {
 
 
 router.post('/', (req, res) => {
+    if(req.session.currentUser){
     Game.create(req.body, (error, createdGame) => {
             if(error) {
                 console.log(error)
@@ -121,6 +130,9 @@ router.post('/', (req, res) => {
                 res.redirect('/games')
             }
     })
+}else {
+    res.send('You must be logged in to do that')
+}
 })
 
 router.delete('/:id', (req, res) => {
@@ -135,7 +147,7 @@ router.delete('/:id', (req, res) => {
     })
 })
 
-router.get('/:id/edit', (req, res) => {
+router.get('/:id/edit', authRequired, (req, res) => {
     // res.render('edit.ejs')
     Game.findById(req.params.id, (error, foundGames) => {
         if(error){
