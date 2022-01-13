@@ -74,6 +74,10 @@ app.use('/games', gameController)
 const userController = require('./controllers /userController')
 app.use('/users', userController)
 
+app.get('/' , (req, res) => {
+    res.render('home.ejs')
+})
+
 
 
 

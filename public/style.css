@@ -1,7 +1,8 @@
 body {
   background: #000000;
   font-family: tahoma, arial;
-  font-size: 11px;
+  font-size: 15px;
+  color: #92e80b;
   font-weight: normal;
   line-height: 15px;
   margin: 0;
@@ -267,8 +268,6 @@ a:active {
   margin-right: 50px;
   padding: 0;
 }
-
-/* ------------------------------------------------- CLASE'S --- */
 
 .calign {
   margin-left: 110px;
