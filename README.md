@@ -18,9 +18,9 @@ Node.js, Express, Javascript, CSS, HTML, MongoDB, Heroku, Atlas
 
 ## Wireframes
 
-!(https://i.imgur.com/LwHcnH8.jpg)
-!(https://i.imgur.com/NEvAxlJ.jpg)
-!(https://i.imgur.com/iCXIeCd.jpg)
+- !(https://i.imgur.com/LwHcnH8.jpg)
+- !(https://i.imgur.com/NEvAxlJ.jpg)
+- !(https://i.imgur.com/iCXIeCd.jpg)
 
 ## User Stories
 
