@@ -8,7 +8,7 @@ router.get('/seed', async (req, res) => {
       [
         {
           name: 'Halo Infinite',
-          description: 'Halo Infinite is a first-person shooter game developed by 343 Industries and published by Xbox Game Studios. ... The campaign follows the human supersoldier Master Chief and his fight against the enemy Banished on the Forerunner ringworld Zeta Halo, also known as Installation 07.',
+          description: 'Halo Infinite is a first-person shooter game developed by 343 Industries and published by Xbox Game Studios. ... The campaign follows the human super soldier Master Chief and his fight against the enemy Banished on the Forerunner ringworld Zeta Halo, also known as Installation 07.',
           img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1X9B1rRmckhs1NNm6Q8gqQPZ9Gm5fXuepF4vxPPoCr5-IFu6tXG6QJktgtV6ei6JziJE&usqp=CAU',
           price: 60,
           discord: "https://discord.com/invite/halo" ,
@@ -37,7 +37,7 @@ router.get('/seed', async (req, res) => {
             price: 40,
             discord: "https://discord.com/invite/fNas7yQ",
             trailer: "https://www.youtube.com/watch?v=z00mK3Pxc8w",
-            review: 'This game is the best I got tons of mods in it worth the money and cc makes your person look way much better also one of the best things is that you can be A CHILD I love going to my Lil stuff I have a big family over 10 Jens I started off with a small child soon she was an adult and then ended up having twins and thriplets! the twins were my favorite a boy and a girl they both ended up dating their same-sex! I loved that so much then the boy adopted 2 kids and the girl adopted 11! soon after the kids grew and then they got married and after 4 gens they died with this being said this game is amazing and lets me make a family I never had! with this being said I am confident that this should be one of the top games'
+            review: 'This game is the best I got tons of mods in it worth the money and cc makes your person look way much better also one of the best things is that you can be A CHILD I love going to my Lil stuff I have a big family over 10 Jens I started off with a small child soon she was an adult and then ended up having twins and triplets! the twins were my favorite a boy and a girl they both ended up dating their same-sex! I loved that so much then the boy adopted 2 kids and the girl adopted 11! soon after the kids grew and then they got married and after 4 gens they died with this being said this game is amazing and lets me make a family I never had! with this being said I am confident that this should be one of the top games'
           },
           {
             name: 'Life Is Strange 2',
@@ -46,7 +46,7 @@ router.get('/seed', async (req, res) => {
             price: 32,
             discord: "https://discord.com/invite/lifeisstrange",
             trailer: "https://www.youtube.com/watch?v=1xYpXzqmk8Y",
-            review: 'This is an amazing game! The story is really captivating and doesnt shy away from cultural issues in our world. Playing through each episode things just  get better and "Stranger". I definitly recommend playing the entire series.'
+            review: 'This is an amazing game! The story is really captivating and doesnt shy away from cultural issues in our world. Playing through each episode things just  get better and "Stranger". I definitely recommend playing the entire series.'
           },
           {
             name: 'Apex Legends',
@@ -61,7 +61,7 @@ router.get('/seed', async (req, res) => {
             name: 'Escape From Tarkov',
             description: "Escape from Tarkov is a hardcore and realistic online first-person action RPG/Simulator with MMO features and a story-driven walkthrough. ... The players will have to experience living in the skin of one of the mercenaries who survived the initial stage of the Tarkov conflict.",
             img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLjdZYYjmXZciNQLAXHGYVcjdXAhUKlEdKwAaXCOfExUJlvJQ5xMks4LFgSQlvp11fIpA&usqp=CAU',
-            price: 0,
+            price: 70,
             discord: "https://discord.com/invite/escapefromtarkovofficial",
             trailer: "https://www.youtube.com/watch?v=8R5t3a2jT4A", 
             review: "This game is the closest you can get to a realistic style looter/shooter game. The gunplay is 10/10 and the gameplay experience is unlike anything I ever experienced on any other game. This game is really intense and I would not recommend for the weak hearted or easily scared individual"

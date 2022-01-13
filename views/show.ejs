@@ -13,9 +13,9 @@
     <br>
     <img src="<%= games.img %>" alt="<%= games.name %>">
     <br>
-    The <%=games.name %> price is $<%=games.price%> 
+    <%=games.name %> price is $<%=games.price%> 
     <br>
-    Reviews <%= games.review %>
+    Reviews: <%= games.review %>
 
 
     <form form action="/games/<%=games.id; %>?_method=DELETE" method="POST">
