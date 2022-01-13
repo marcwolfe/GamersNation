@@ -28,17 +28,17 @@ As a user the goal is to be able to view my games. I want to be able to add new 
 
 ## MVP Goals
 
-Full Crud functionality
-Pictures of each game
-Place for Discord community link for the game of choice
+- Full Crud functionality
+- Pictures of each game
+- Place for Discord community link for the game of choice
 
 ## Stretch Goals
 
-User Authentication
-Youtube links to tutorials for each game
+- User Authentication
+- Youtube links to tutorials for each game
 
 ## Things to come back to
 
-Add more games in the library
-Apply better CSS to make website look more clean
-Add links to different places to purchase the games
+- Add more games in the library
+- Apply better CSS to make website look more clean
+- Add links to different places to purchase the games
