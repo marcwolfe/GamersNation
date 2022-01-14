@@ -8,10 +8,7 @@ Gamer Nation
 
 https://gamer-nation.herokuapp.com/
 
-To test out use
-username: Marc
-password: codewithme
-
+To test out make a username and password
 ## Project Description
 
 This is a gamers community where you can come to research about games you are interested in and even add your own games you want to review and show off to the community.
